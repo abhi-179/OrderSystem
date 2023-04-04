@@ -1,0 +1,24 @@
+#API configurations
+application:
+  name: seller API Server
+  doc: http://localhost:8080
+
+# Server configurations
+server:
+  port: :8080
+
+logging:
+  level: DEBUG
+env:
+ level: Development
+
+mysql:
+  user: "abhi"
+  password: "Accubits@1"
+  port: "3306"
+  host: "localhost"
+  dbname: "user"
+  
+swagger:
+ url: kk
+ method: http 
